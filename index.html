@@ -1,0 +1,346 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins|Lobster|Nunito|Permanent+Marker">
+    <meta charset="UTF-8">
+    <link rel="icon" href="https://avatars.githubusercontent.com/u/90274551?v=4" type="image/gif" sizes="17x17">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <title>Horrible Incident in our Locality</title>
+<style>
+html {
+        scroll-behavior: smooth;
+    }
+    ::selection {
+  color: rgb(9,213,213);
+  background: rgb(9,93,93);
+}
+    body {
+        background: snow;
+        color: rgb(23,23,23);
+        font-family: Nunito;
+        font-weight: 600;
+        line-height: 1.8;
+        margin:0;
+        overflow-x: hidden;
+        transition: 0.3s;
+    }
+    button {
+    color: rgb(23,23,23);
+        font-family: Nunito;
+        font-weight: 600;
+    }
+    h1 {
+        font-family: Lobster;
+        text-align: center;
+    }
+    a {
+        text-decoration: none;
+       color: rgb(23,23,23);
+    }
+    a:hover {
+       color: rgb(123,123,123);
+    }
+    iframe {
+      width: 90%; height: 500px; border-radius: 10px;border:0;
+    }
+* {
+  box-sizing: border-box;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin-left: 5%;
+  width: 90%;
+}
+
+.flex-item-left {
+  padding: 10px;
+  flex: 25%;
+  text-align: justify;
+}
+
+.flex-item-right {
+  padding: 10px;
+  flex: 60%;
+  text-align: justify;
+}
+
+.flex-item-right, .flex-item-left {margin-top: 50px;}
+
+details > summary {
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6 {
+
+}
+.nav {
+    text-align: center;
+    margin: auto;
+    z-index: 1;
+}
+#demo {
+position: fixed;
+left: -100%;
+transition: 1s ease-in-out;
+top: 40px;width: 100%;background: cornsilk;height: 100%;top:0;background-attachment:fixed;background-size:cover;
+}
+.w  {
+font-size: 25px;position: fixed;padding: 10px;
+}
+.e {
+top: 72px;
+}
+
+.f {
+top: 120px;
+}
+
+.g {
+top: 168px;
+}
+
+.h {
+top: 220px;
+}
+
+.e, .f, .g, .h {
+margin-left: 15%;
+transition: 1s;
+}
+
+.e:hover {
+margin-left: 18%;
+transition: 1s;
+}
+
+.f:hover {
+margin-left: 18%;
+transition: 1s;
+}
+
+.g:hover {
+margin-left: 18%;
+transition: 1s;
+}
+
+.h:hover {
+margin-left: 18%;
+transition: 1s;
+}
+
+#i {
+  position: fixed;
+ bottom: 0px;
+  right: -220%;
+border-bottom: 200vh solid dodgerblue;
+  border-left: 200vw solid transparent;
+  border-radius: 50%;
+  height: 0;
+  width: 200px;
+  transition: 1s;
+  color: #333;
+  z-index: -200;
+}
+
+button {
+cursor: pointer;
+color: black;
+}
+
+button:hover {
+color: rgb(123,123,123);
+}
+
+iframe, input {z-index: -100;}
+
+.dark-mode {
+  background-color: rgb(23,23,23);
+  color: white;
+}
+iframe {box-shadow: 2px 2px 10px black;}
+
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
+
+</style>
+</head>
+<body id="body">
+
+<nav id="nav" style="top:0px;left: 0px;width: 100%;position: fixed;border-bottom: 2px solid dodgerblue;padding: 16px;background-image: url(https://github.com/subhransuindia/Pictures/blob/main/1nav.jpg?raw=true);background-attachment: fixed;">
+
+<tagname style="text-align: center;color: black;">Why you should visit Hyderabad?
+</tagname>
+
+<button style="padding-top: 2.5px;border-radius: 10px;text-align: center;border:0;color: black;background: transparent;float:right;" onclick="myFunction()">☰</button>
+
+<button style="padding-top: 5px;text-align: justify;background-color: transparent; border:0;color: rgb(23,23,23);cursor: pointer;font-size: 15px;float:right;" class="material-icons" onclick="meFunction()">dark_mode</button>
+
+</nav>
+
+<div id="demo">
+ <button style="position: fixed;padding: 10px;text-align: center;border:0;margin-left: 85%;top:10px;background: transparent;" onclick="maFunction()">X</button>
+ <a class="w e" href="https://subhransuindia.github.io/homepage.github.io/" ><p>Home</p></a>
+            <a class="w f" href="https://subhransuindia.wordpress.com"><p>Blog</p></a>
+            <a class="w g" href="https://subhransuindia.github.io/more.github.io/"><p>More</p></a>
+            
+            <a class="w h" href="https://github.com/subhransuindia"><p class="fa fa-github"></p></a>
+           
+            <button id="demu" style="text-align: justify;background-color: transparent; border:0;color: rgb(23,23,23);cursor: pointer;font-size: 20px;" onclick="window.print()"><a class="fa fa-print"></a></button>
+            
+            
+            
+            <div id="i">
+              .
+              </div>
+</div>
+
+<a href="#" style="position: fixed;bottom: 15px;right: 15px;backdrop-filter: blur(5px);background-color: rgba(255,255,255,0.5);padding: 5px;border-radius: 10px;">↑</a>
+
+<div style="background: url(https://github.com/subhransuindia/Pictures/blob/main/3.jpg?raw=true);padding-top: 170px;padding-bottom: 170px;margin-top: 50px;background-attachment: fixed;background-size: cover;padding-left: 15%; ">
+<h1 style="font-size: 48px;color: white;text-align: left;">Why you should visit Hyderabad?</h1>
+<hr style="margin-right: 30%;">
+<p style="color: white;">Website Initiated By Subhransu Patra</p>
+</div>
+
+<div class="flex-container">
+  <div class="flex-item-left">
+      <details style="background: rgba(0, 0, 0, 0.5);border-radius: 10px;border: 2px solid white;padding: 10px;position: sticky;">
+        <summary style="cursor: pointer;"><h2>Table of Content</h2></summary>
+        <li><a href="#a">Introduction</a></li><br>
+        <li><a href="#b">Golconda Fort</a></li><br>
+        <li><a href="#c">Salar Jung Museum</a></li><br>
+        <li><a href="#d">Char Minar</a></li><br>
+        <li><a href="#e">Ramoji Film City</a></li><br>
+        <li><a href="#f">Birla Mandir</a></li><br>
+        <li><a href="#g">My Experience</a></li><br>
+        <li><a href="#h">Train Journey, Gone Wrong</a></li><br>
+        <li><a href="#k">Meeting my sister after a half year</a></li><br>
+        <li><a href="#j">Secundrabad</a></li><br>
+        <li><a href="#l">Comments by me</a></li><br>
+    </details>
+  </div>
+  <div class="flex-item-right">
+      <h1 id="a" class="d">Introduction</h1>
+      <p>Hyderabad, which is my ‘2nd’ favorite city, (First will be the only one, i.e., Dehradun 😍) is a historical place (as for me…) I like historical places a lot, I mean to say very much (I can’t express in words!) It is a place of many historical buildings like Charminar, Golconda Fort etc. Many films have been shooting in this place, most popular shooting site is Ramoji Film City. Many Bollywood and Tollywood films are filmed in this city. This is a place of many tourist attractions also, some of the places like Salarjung Museum, Birla Mandir etc. are there</p>
+      <h1 id="b">Golconda Fort</h1>
+      <p>Golconda fort, also known as shepherds hill was built by Kakatiyas in the 13th century India. It was a fortified city. They ruled for around for a century or two till the Bahmanis came. Golconda, in the presence of Bahmanis, rose to prominence in the 14th century. But after the falls of Bahmani, Governor of Golconda established a new empire known as Qutb Shahi Dynasty. From then, it was modified from a mud fort to a well-fortified fort. I was shocked by the fact that Koh-i-Noor, one of the precious diamond of the world, owned by Brithish queen, was believed to be excavated on this site…  Some other diamonds that are also believed to be excavated from here are<br>
+•	Daria-i-Noor<br>
+•	Noor-ul-Ain<br>
+•	Koh-i-Noor<br>
+•	Hope Diamond<br>
+•	Princie Diamond<br>
+•	Regent Diamond<br>
+•	Wittelsbach-Graff Diamond<br>
+</p>
+      <h1 id="c">Salar Jung Museum</h1>
+      <p>Salar Jung Museum, one of the biggest museums in the world is an art museum which was established 69 years ago. On 16 December 1951, it was inaugurated at Diwan Devdi, Hyderabad, Telangana, India. It has collection of almost 1.1 million objects!! (You could now think how big that museum would be…) But in 1968, it was moved to Dar-Ul-Shifa, Hyderabad, Telangana.  The collections include the objects from India, Western countries and eastern countries. Some of the artifacts are Mayur Pankhi, Nandi, Arabic Calligraphy, Royal Elephant, Eka-Mukha-Linga and many more…</p>
+      <h1 id="d">Char Minar</h1>
+      <p>Char Minar!! How someone could forgets to visit Char Minar if he/she is in Hyderabad. It is literally a four minaret which was built in 1591. There are also many markets besides the minarets where many items are sold. It is the best tourist attraction and it is one of the greatest sites among the other sites in the world. It was formed under the rulers of Qutb Shahi by Muhammad Quli Qutab Shah. He build this after shifting his capital from Golconda to Hyderabad. It is also known as ‘Arc De Triomphe’ of the east. Charminar is also presented in the defunct Hyderabadi Rupee. It is in tentative list among the UNESCO World Heritage Site.</p>
+      <h1 id="e">Ramoji Film City</h1>
+      <p>Ramoji film City, spread over 1666 acres (Now you should know how big that film city is) and yes it is true that it has a Guinness World Records as the biggest film complex in the world. Many people, or 1.5 million people a year, visits Ramoji film city every year. It was built as it is, i.e. no trees were cuts while making the complex. Most popular films such as Bahubali are also filmed in this film city. </p>
+      <h1 id="f">Birla Mandir</h1>
+      <p>It is a Hindu temple which was constructed on 1976.</p>
+      
+      <h1 id="g">My Experience</h1>
+      <p>I visited Hyderabad 3 years ago and it has been a lot of days since I had seen Hyderabad. But I know some of the experience of mine in Hyderabad. My father had got his job there when he was 25 – 26 years of age. He and my mother have an attachment with this place, so they decided to visit Hyderabad. </p>
+      
+      <h1 id="h">Train Journey, Gone Wrong</h1>
+      <p>It was October time, it was Shoshthi, starting of Durga Puja, and crowd was at its peak. We departed from our home at 6 : 30 PM. We got Taxi very early (by chance). But here’s a thing. You know how much crowd is in Durga Puja time, everywhere to see only lines of cars and buses and people roaming here and there. Howrah Station was 20 min away by car if it is morning time, but in the evening, uff… We reached there late at 9: 30 PM even when we had departed from home early. Taxi Driver helped a lot, he was finding the shortest route to our destination but after all these we were late. Then after deciding, we travelled in an unreserved train.</p>
+      
+      <h1 id="k">Meeting my sister after a half year</h1>
+      <p>We were going Hyderabad through the route of Bhubaneswar. My sister lives in Bhubaneswar, so we got out of the train and went straight to her hostel. We chatted a lot and then when it was evening we had a chow party… 😻 In the morning, we departed with the sister and went to the station, after our train came, Vishakha Express (Don’t know why but I really like this train) we stepped our journey to Hyderabad…</p>
+      
+      <h1 id="j">Secundrabad</h1>
+      <p>Secundrabad is the ‘twin city’ of Hyderabad. It’s was a way too much bigger that the Hyderabad station. It seems like that we are in Kolkata, no change (except the buses). We stayed on a guest room there. We visited many places that are listed below
+•	Golconda Fort<br>
+•	Charminar<br>
+•	Salarjung Museum<br>
+•	An Uncle’s house<br>
+•	My father’s old office<br>
+</p>
+
+<h1 id="l">Comments By Me</h1>
+      <p>So, this is the article, hope you liked it and if you, please like and comment down. Also, if you have been to Hyderabad or staying in Hyderabad, then please comment down your experience. Till then stay safe stay healthy and GuDByE
+</p>
+  </div>
+</div>
+
+<div style="border-top-left-radius: 20px;border-top-right-radius: 20px;background: url(https://github.com/subhransuindia/Pictures/blob/main/foot.jpg?raw=true);background-attachment: fixed;background-size: cover;padding: 10px;text-align: center;box-shadow: 2px -2px 10px black;color: black;">
+<iframe style="z-index: -100;"   src="https://subhransuindia.wordpress.com/"></iframe>
+<iframe style="z-index: -100;"   src="https://docs.google.com/forms/d/e/1FAIpQLSd9hO-OQwpi2BEeHo1S2y7VoM7hUnYs12egqA4290T-M5Fcig/viewform?usp=sf_link"></iframe>
+<div  style="text-align: center;padding: 16px;margin:0;margin-top: 20px;">
+<input placeholder="Search if you want.." style="z-index: -100;border-radius: 60px;border: 2px solid black;padding: 16px;width: 50%;font-family: Poppins;font-size: large;"> <tagname style="padding: 16px;background-color: rgba(9,225,9,0.5);border-radius: 50%;">Go</tagname>
+</div>
+<div style="text-align: center; width: 75%;margin-left: 12.5%;">
+  <h1>Some more amazing Articles..</h1>
+  <hr style="height: 2px;background-color:white;width: 60%;">
+  <h2><a href="https://subhransuindia.github.io/From-Boring-to-Unique-Sarcastic/">From Boring to Unique (Sarcastic)
+  </a></h2>
+  <p>Boring are not OFC amazing thing but they are also not cringe thing. But if you want to turn a thing into cringe, then this website is for you. Click on 'From Boring to Unique (Sarcastic)' to know more</p>
+  
+  </div>
+<div class="t" style="text-align: center;padding: 16px;margin:0;font-size:20px;">
+  <div class="w" style="width: 100%;">
+  <h3>By Subhransu Patra</h3>
+  </div>
+  <div class="w" style="width: 100%;">
+  <h3>Kolkata, IN</h3>
+  </div>
+  <div class="w" style="width: 100%;">
+  <h2><a href="" class="fa fa-github"></a></h2>
+  </div>
+</div>
+<h1>Thanks For Visiting</h1>
+<p style="text-align: center;">Blog By Wordpress</p>
+<p style="text-align: center;">Search feauture don't work</p>
+<h1>Navigation</h1>
+<a href="https://subhransuindia.github.io/homepage.github.io/" style="margin-right: 10px;">Home</a>
+            <a href="https://subhransuindia.wordpress.com" >Blog</Blog></a>
+            <a href="https://subhransuindia.github.io/more.github.io/" style="margin-left: 10px;">More</a>
+            <button id="demu" style="text-align: justify;background-color: transparent; border:0;color: white;cursor: pointer;font-size: 20px;" onclick="window.print()"><a class="fa fa-print"></a></button>
+</div>
+
+<script>
+
+function maFunction() {
+let x = document.getElementById("demo")
+x.style.left = "-100%";
+let y = document.getElementById("i")
+y.style.right = "-220%";
+}
+
+function meFunction() {
+var element = document.body;
+  element.classList.toggle("dark-mode");
+  var element = document.div;
+  element.classList.toggle("dark-mode");
+}
+
+function myFunction() {
+let x = document.getElementById("demo")
+x.style.left = "0";
+let y = document.getElementById("i")
+y.style.right = "0";
+}
+
+alert('This is my New Website design... I hope you liked it... used some javascript also...')
+
+AOS.init();
+
+</script>
+
+</body>
+</html>
+
+
